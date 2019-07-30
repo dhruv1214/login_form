@@ -1,0 +1,88 @@
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background: #111;
+}
+.form-01{
+    border: 1px solid white;
+    width: 70%;
+    margin:25px auto;
+    background: #fc3;
+    border-radius: 10px;
+    padding: 25px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+
+}
+form-01 .header {
+    text-align: center;
+    color: white;
+    
+    
+}
+.form-01 .input-01
+{
+    width: 100;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 50px;
+    margin: 10px 0px;
+    text-align: center;
+    background: -webkit-gradient(linear,left top,left bottom,from(#111),to(#333));
+    
+    background: linear-gradient(#111,#333);
+    color:lime;
+    border-radius: 10px;
+     border: none;
+}
+.form-01 .input-01:focus{
+    outline: none;
+   
+}
+
+    ::-webkit-input-placeholder {
+    /* chrome/opera/safari */
+color:#fc3;
+
+}
+
+::-moz-placeholder{
+    color: #fc3;
+}
+
+
+.from-01  .check-wrap input{
+    float: left;
+     
+}
+
+.from-01  .check-wrap a{
+    float: right;
+    
+}
+.btn-01{
+    width:70%;
+    margin: 20px auto;
+    margin-top: 30px;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    background: #111;
+    color: lime;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+
+.check-wrap label{
+    position: :relative;
+    top: 6px;
+    left: 5px;
+    font-weight: 800;
+}

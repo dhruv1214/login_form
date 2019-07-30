@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 02</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+     <form action="" class="form-01">
+     <div class="header">
+         <h1>Login</h1>
+     </div>
+     <input type="text" class="input-01" placeholder="Email Address">
+     <input type="password" class ="input-01" placeholder="Password">
+         
+         <div class="check-wrap">
+             <input type="checkbox" class="checkbox">
+             <label fro=""> Remember Me </label>
+             <a href="#"> Forgot Password</a>
+             
+         </div>
+<input type="sumbit" value="Login" class="bt-01">
+          </form>
+   
+  
+          </body>
+          </html>
